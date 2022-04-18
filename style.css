@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+#nav-bar{
+    height:40px;
+    padding: 10px;
+}
+button{
+    background-color: white;
+    border-radius: 15px;
+    border: solid 1px purple;
+    height: inherit;
+    width: 100px;
+    float: right;
+    cursor: pointer;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+}
+#nav-bar>button:hover{
+    background-color: purple;
+    color: white;
+}
+.container-1{
+    width: 70%;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+    margin-top: 5%;
+}
+.container-1>.item-2>img{
+    height: 100%;
+    width: 100%;
+}
+.container-1>.item-1{
+    margin-right: 10%;
+    margin-top: 10%;
+}
+.container-1>.item-1{
+    margin-left: 10%;
+}
+.item-1>div{
+    padding-top: 6%;
+}
+.item-1>div>input:nth-of-type(1){
+    display: inline;
+    width: 25px;
+}
+.item-1>div>input{
+    border: 0px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border-bottom: 2px solid purple;
+}
+.item-1>div>input:nth-of-type(3){
+    background-color: purple;
+    color: white;
+    border-radius: 7px;
+    width: 60px;
+}
+.item-1>div>input:nth-of-type(3):hover{
+    background-color: rgb(201, 145, 201);
+    color: rgb(75, 70, 75);
+    cursor: pointer;
+}
+
+.container-2{
+    width: 70%;
+    margin: auto;
+    margin-top: 10%;
+}
+.inner-container-1{
+    /* display: grid;
+    grid-template-columns: auto auto auto auto; */
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    justify-content: center;
+    margin-top: 7%;
+}
+
+.container-2>.inner-container-2{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 7%;
+    padding: 7%;
+    padding-top:0px;
+}
+#button-div{
+    display: flex;
+    justify-content: center;
+}
+#button-div>button{
+    width: 150px;
+    padding: 10px;
+}
+#button-div>button:hover{
+    background-color: purple;
+    color: white;
+}
+
+.container-3{
+    position: relative;
+    width: 70%;
+    height: 800px;
+    background-color: rgb(201, 157, 241);
+    margin: auto;
+    margin-top:15%;
+    border-radius:20px;
+}
+.container-3>p{
+    font-size: 50px;
+    margin: 30px;
+    color: white;
+    padding-right: 40%;
+}
+.container-3>h3{
+    font-size: 20px;
+    padding: 30px;
+    color: blue;
+    padding-bottom: 0px;
+}
+#tree{
+    width: 35%;
+    position: absolute;
+    z-index:1;
+    right: 3%;
+    top: -15%;
+}
+.container-3>.inner-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 10%;
+}
+.container-3>.inner-container>div{
+    padding:0px;
+}
+.tochange>div{
+    color: white;
+    padding: 10px;
+    font-family: Poppins;
+}
+.tochange>div:nth-of-type(1){
+    font-size: 70px;
+    font-weight: bold;
+}
+.tochange>div:nth-of-type(2){
+    font-size: 20px;
+    font-weight: bold;
+}
+#but>button{
+    color: purple;
+    border-radius: 10px;
+    width: 150px;
+    padding: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    border: none;
+}
+#but>button:hover{
+    cursor: pointer;
+    background-color: purple;
+    color: white;
+
+}
+.container-4{
+    width: 70%;
+    margin: auto;
+    margin-top: 10%;
+}
+.container-4>.inner-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    height: 500px;
+}
+.container-4>.inner-container>div:nth-of-type(1){
+    background-color: rgb(194, 67, 67);
+    border-radius: 25px;
+    
+}
+.container-4>.inner-container>div:nth-of-type(2){
+    background-color: rgb(238, 175, 175);
+    border-radius: 25px;
+}
+.change>div:nth-of-type(1){
+    font-weight: bold;
+    padding: 20px;
+}
+.change>div:nth-of-type(2){
+    font-weight: bolder;
+    font-size: 40px;
+    padding: 20px;
+}
+.change>div:nth-of-type(3){
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}
+.container-4>.inner-container>.item-1{
+    position: relative;
+    overflow: hidden;
+}
+.container-4>.inner-container>.item-1>img{
+    position: absolute;
+    right:0;
+    bottom:0;
+}
+.container-4>.inner-container>.item-2{
+    position: relative;
+    overflow: hidden;
+}
+.container-4>.inner-container>.item-2>img{
+    position: absolute;
+    right:0;
+}
+.container-4>.inner-container>.item-1>button{
+    position: absolute;
+    bottom:0;
+    background-color: rgb(194, 67, 67);
+}
+.container-4>.inner-container>.item-2>button{
+    position: absolute;
+    bottom:0;
+    background-color: rgb(238, 175, 175);
+}
+.inner-button{
+    margin:30px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: 2px solid black;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+
+.container{
+    width: 70%;
+    background-color: lightgray;
+    margin: auto;
+    margin-top: 10%;;
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+}
+.nav{
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    /* position: absolute; */
+}
+.nav>a{
+    text-align: center;
+    padding: 20px;
+    font-size: medium;
+    text-decoration: none;
+    color: purple;
+    font-family: Poppins;
+    font-weight: bold;
+}
+.nav>a:hover{
+    background-color: purple;
+    color: white;
+    background-color: purple;
+    font-family: Poppins;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px 20px 0px 0px;;
+}
+/* .container>content{
+    position: absolute;
+    top: 40px;
+} */
+.content{
+    width: 70%;
+    margin: auto;
+    height: 300px;
+    overflow: auto;
+    border-radius: 0 0 20px 20px;
+    
+}
+#stocks{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#ipos{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#mutual{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#options{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.change-style>ul>li{
+    margin:25px;
+    color:rgb(64, 66, 68);
+    margin-left: 0px;
+}
+.change-style>ul{
+    font-family: Poppins;
+}
+#but-in-nav{
+    display: flex;
+    justify-content: left;
+}
+#but-in-nav>button:hover{
+    background-color: purple;
+    color: white;
+    font-family: Poppins;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fix{
+    background-color: purple;
+    margin-top: 12%;
+}
+.fix>div{
+    margin: auto;
+    padding: 20px 20px;
+    width: 70%;
+    font-family: Poppins;
+    font-size: small;
+}
+#wp{
+    position: fixed;
+    right: 12px;
+    bottom: 15px;
+}
+#wp:hover{
+    cursor: pointer;
+}
+.container-6{
+    width: 70%;
+    background-color: lightblue;
+    margin: auto;
+    margin-top:10%;
+    border-radius: 20px;
+    padding: 30px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 57% 43%;
+    position: relative;
+}
+.container-6>img{
+    position: absolute;
+    right: 0;
+    bottom:0;
+}
+.container-6>.item-1>div:nth-of-type(1){
+    font-size: 20px;
+    font-weight: bold;
+}
+.container-6>.item-1>div:nth-of-type(2){
+    font-size: 40px;
+    font-weight: bolder;
+}
+.container-6>.item-1>div:nth-of-type(3){
+    font-size: 20px;
+}
+#inner-button-onboarding{
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+    background-color: lightblue;
+}
