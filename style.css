@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
+body{
+    margin: 0px;
+}
 #nav-bar{
     height:40px;
     padding: 10px;
@@ -26,6 +29,9 @@ button{
     grid-template-columns: auto auto;
     margin: auto;
     margin-top: 5%;
+}
+#tel-no:focus{
+    border:none;
 }
 .container-1>.item-2>img{
     height: 100%;
@@ -268,10 +274,7 @@ button{
     cursor: pointer;
     border-radius: 20px 20px 0px 0px;;
 }
-/* .container>content{
-    position: absolute;
-    top: 40px;
-} */
+
 .content{
     width: 70%;
     margin: auto;
@@ -369,3 +372,4 @@ button{
     left: 30px;
     background-color: lightblue;
 }
+
